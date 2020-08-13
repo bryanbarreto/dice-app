@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C3D0B98224E4D30E003A79A8 /* dados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dados.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D0B98224E4D30E003A79A8 /* Dados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D0B98524E4D30E003A79A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3D0B98724E4D30E003A79A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C3D0B98924E4D30E003A79A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		C3D0B98324E4D30E003A79A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3D0B98224E4D30E003A79A8 /* dados.app */,
+				C3D0B98224E4D30E003A79A8 /* Dados.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = dados;
 			productName = dados;
-			productReference = C3D0B98224E4D30E003A79A8 /* dados.app */;
+			productReference = C3D0B98224E4D30E003A79A8 /* Dados.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -287,12 +287,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8A3VLCQATV;
 				INFOPLIST_FILE = dados/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bryanbarreto.dados;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Dados;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,12 +306,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8A3VLCQATV;
 				INFOPLIST_FILE = dados/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bryanbarreto.dados;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Dados;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
